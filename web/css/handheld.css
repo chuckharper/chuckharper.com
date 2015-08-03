@@ -1,6 +1,6 @@
 body {
 	background-color: #11171a;
-	background-image: url(/images/bg_tile.gif);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bg_tile.gif);
 	background-repeat: repeat;
 	color: #79b2df;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
@@ -17,7 +17,7 @@ body {
 	z-index: 100;
 }
 #inside_wrapper {
-	background-image: url(/images/bg_inside.gif);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bg_inside.gif);
 	background-repeat: no-repeat;
 	background-position: center -50px;
 	position: relative;

@@ -74,7 +74,7 @@
 			print <<<EOT
 				<li{$class}>
 					<a href="{$sponsor['link']}" rel="external">
-						<img src="/images/sponsors/{$sponsor['image']}" alt="{$sponsor['corp']}" title="{$sponsor['corp']} [{$sponsor['ref']}]" />
+						<img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/{$sponsor['image']}" alt="{$sponsor['corp']}" title="{$sponsor['corp']} [{$sponsor['ref']}]" />
 					</a>
 				</li>
 EOT;

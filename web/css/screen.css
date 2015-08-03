@@ -7,7 +7,7 @@ body {
 	margin: 0 auto 0 auto;
 }
 #wrapper_outside {
-	background-image: url(/images/bg.gif);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bg.gif);
 	background-repeat: no-repeat;
 	background-position: center top;
 	overflow: visible;
@@ -16,7 +16,7 @@ body {
 	z-index: 100;
 }
 #wrapper_inside {
-	background-image: url(/images/bottom_mask.gif);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bottom_mask.gif);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	overflow: visible;
@@ -32,7 +32,7 @@ body {
 }
 
 #inside_wrapper {
-	background-image: url(/images/bg_inside.gif);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bg_inside.gif);
 	background-repeat: no-repeat;
 	background-position: center top;
 	position: relative;
@@ -101,7 +101,7 @@ h5 {
 	margin: 0 0 0 226px;
 }
 #chuckharper_com	a {
-	background-image: url(/images/chuckharper_com.gif);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/chuckharper_com.gif);
 	background-repeat: no-repeat;
 	background-position: left top;
 	display: block;
@@ -115,7 +115,7 @@ h5 {
 	margin: 0 0 0 60px;
 }
 #nav_home	a {
-	background-image: url(/images/nav_home.gif);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/nav_home.gif);
 	background-repeat: no-repeat;
 	background-position: left top;
 	display: block;
@@ -143,12 +143,12 @@ h5 {
 
 #home_about { padding-top: 30px; }
 
-#home_it	a { background-image: url(/images/home_it.gif); }
-#home_video	a { background-image: url(/images/home_video.gif); }
-#home_web	a { background-image: url(/images/home_web.gif); }
-#home_bookmarks	a { background-image: url(/images/home_bookmarks.gif); }
-#home_photos	a { background-image: url(/images/home_photos.gif); }
-#home_about	a { background-image: url(/images/home_about.gif); }
+#home_it	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/home_it.gif); }
+#home_video	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/home_video.gif); }
+#home_web	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/home_web.gif); }
+#home_bookmarks	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/home_bookmarks.gif); }
+#home_photos	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/home_photos.gif); }
+#home_about	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/home_about.gif); }
 
 #nav {
 	margin: 0;
@@ -175,12 +175,12 @@ h5 {
 #nav	#nav_it { margin-left: 24px; }
 #nav	#nav_about { margin-left: 14px; }
 
-#nav_it	a { background-image: url(/images/nav_it.gif); width:34px; }
-#nav_video	a { background-image: url(/images/nav_video.gif); width:37px; }
-#nav_web	a { background-image: url(/images/nav_web.gif); width:37px; }
-#nav_bookmarks	a {	background-image: url(/images/nav_bookmarks.gif); width:36px; }
-#nav_photos	a { background-image: url(/images/nav_photos.gif); width:36px; }
-#nav_about	a { background-image: url(/images/nav_about.gif); width:35px; }
+#nav_it	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/nav_it.gif); width:34px; }
+#nav_video	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/nav_video.gif); width:37px; }
+#nav_web	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/nav_web.gif); width:37px; }
+#nav_bookmarks	a {	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/nav_bookmarks.gif); width:36px; }
+#nav_photos	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/nav_photos.gif); width:36px; }
+#nav_about	a { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/nav_about.gif); width:35px; }
 
 body.inside_body	h2 {
 	background-repeat: no-repeat;
@@ -188,13 +188,13 @@ body.inside_body	h2 {
 	margin-bottom: 10px;
 	text-indent: -9999px;
 }
-#body_web	h2 { background-image: url(/images/header_web.gif); }
-#body_it	h2 { background-image: url(/images/header_it.gif); }
-#body_video	h2 { background-image: url(/images/header_video.gif); }
-#body_bookmarks	h2 { background-image: url(/images/header_bookmarks.gif); }
-#body_photos	h2 { background-image: url(/images/header_photos.gif); }
-#body_sponsors	h2 { background-image: url(/images/header_sponsors.gif); }
-#body_about	h2 { background-image: url(/images/header_about.gif); }
+#body_web	h2 { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/header_web.gif); }
+#body_it	h2 { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/header_it.gif); }
+#body_video	h2 { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/header_video.gif); }
+#body_bookmarks	h2 { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/header_bookmarks.gif); }
+#body_photos	h2 { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/header_photos.gif); }
+#body_sponsors	h2 { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/header_sponsors.gif); }
+#body_about	h2 { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/header_about.gif); }
 body.inside_body	h2.noimage {
 	text-indent: 0;
 }
@@ -248,7 +248,7 @@ a.buzzword {
 }
 
 #circuit_board {
-	background-image: url(/images/circuit_board.gif);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/circuit_board.gif);
 	background-repeat: no-repeat;
 	height: 844px;
 	margin: 0 auto;
@@ -259,7 +259,7 @@ a.buzzword {
 	background-position: center top;
 }
 #brain {
-	background-image: url(/images/brain.png);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/brain.png);
 	background-repeat: no-repeat;
 	height: 515px;
 	left: -200px;
@@ -269,7 +269,7 @@ a.buzzword {
 	width: 157px;
 }
 #equalizer {
-	background-image: url(/images/equalizer.gif);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/equalizer.gif);
 	background-repeat: no-repeat;
 	height: 234px;
 	left: -140px;
@@ -295,13 +295,13 @@ a.buzzword {
 	z-index: 90;
 	background-position: center top;
 }
-#body_it	#floating_bg { background-image: url(/images/it_bg.jpg);  height: 100%;}
-#body_video	#floating_bg { background-image: url(/images/video_bg.jpg); height: 100%; }
-#body_web	#floating_bg { background-image: url(/images/web_bg.jpg); height: 1500px; }
-#body_bookmarks	#floating_bg { background-image: url(/images/bookmarks_bg.jpg); height: 1310px;}
-#body_photos	#floating_bg { background-image: url(/images/photos_bg.jpg); height: 100%;}
-#body_about	#floating_bg { background-image: url(/images/about_bg.jpg); height: 872px;}
-#body_sponsors	#floating_bg { background-image: url(/images/sponsors_bg.jpg); height: 712px;}
+#body_it	#floating_bg { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/it_bg.jpg);  height: 100%;}
+#body_video	#floating_bg { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/video_bg.jpg); height: 100%; }
+#body_web	#floating_bg { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/web_bg.jpg); height: 1500px; }
+#body_bookmarks	#floating_bg { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks_bg.jpg); height: 1310px;}
+#body_photos	#floating_bg { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/photos_bg.jpg); height: 100%;}
+#body_about	#floating_bg { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/about_bg.jpg); height: 872px;}
+#body_sponsors	#floating_bg { background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors_bg.jpg); height: 712px;}
 
 body.inside_body	#mousetext {
 	font-family: Lucida Console, Monaco, monospace;
@@ -338,7 +338,7 @@ body.inside_body	#mousetext {
 }
 
 #footer_wrapper {
-	background-image: url(/images/inside_bottom.png);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/inside_bottom.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 	padding-left: 60px;
@@ -391,7 +391,7 @@ body.inside_body	#mousetext {
 	width: 97%;
 }
 .linkgroup {
-	background-image: url(/images/linkbox_bg.png);
+	background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/linkbox_bg.png);
 	background-repeat: repeat;
 	border: 3px #79b2df solid;
 	margin-bottom: 10px;

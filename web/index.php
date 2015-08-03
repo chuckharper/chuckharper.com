@@ -10,7 +10,7 @@
 </head>
 <body id="body_home">
 	<div id="wrapper_outside"><div id="wrapper_inside"><div id="main">
-		<h1 id="chuckharper_com"><a hef="/"><img src="/images/fbimage.jpg" alt="chuckharper.com" /></a></h1>
+		<h1 id="chuckharper_com"><a hef="/"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/fbimage.jpg" alt="chuckharper.com" /></a></h1>
 		
 		<ul id="home_nav">
 			<li id="home_it"><a href="/it/">Information Technology</a></li>
