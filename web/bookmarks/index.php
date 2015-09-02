@@ -54,6 +54,7 @@
 				</div>
 				<div class="linkgroup">
 					<h3>Misc</h3>
+					<a href="http://www.airspacemag.com/"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/airandspace.gif" alt="Air &amp; Space Magazine" title="Air &amp; Space Magazine" /></a>
 					<a href="http://www.digg.com"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/digg.gif" alt="Digg" title="Digg" /></a>
 					<a href="http://m.snopes.com/whats-new/"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/snopes.gif" alt="Snopes" title="Snopes" /></a>
 					<a href="http://www.straightdope.com"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/straightdope.jpg" alt="The Straight Dope" title="The Straight Dope" /></a>
