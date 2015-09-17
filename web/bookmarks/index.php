@@ -93,7 +93,7 @@
 					<a href="http://www.fandango.com/"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/fandango.gif" alt="Fandango" title="Fandango" /></a>
 					<a href="http://www.imdb.com"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/imdb.jpg" alt="IMDB" title="IMDB" /></a>
 					<a href="http://www.mouseplanet.com/"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/mouseplanet.gif" alt="MousePlanet" title="MousePlanet" /></a>
-					<a href="http://newbevcinema.com/"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/new_beverly.jpg" alt="New Beverly Cinema" title="New Beverly Cinema" /></a>
+					<a href="http://www.thenewbev.com/"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/beverly.png" alt="New Beverly Cinema" title="New Beverly Cinema" /></a>
 					<a href="http://www.apple.com/trailers/"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/movietrailers.jpg" alt="Apple Movie Trailers" title="Apple Movie Trailers" /></a>
 					<a href="http://www.escapistmagazine.com/articles/view/editorials/zeropunctuation"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/bookmarks/zeropunctuation.gif" alt="Zero Punctuation" title="Zero Punctuation" /></a>	 
 				</div>
