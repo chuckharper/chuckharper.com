@@ -1,0 +1,23 @@
+@keyframes rollingGrid {
+  0% {
+    transform: translate(0, 5px);
+    opacity: 0.2; }
+  10% {
+    transform: translate(0, 0);
+    opacity: 0.1; }
+  30% {
+    transform: translate(0, 5px);
+    opacity: 0.2; }
+  40% {
+    transform: rotate(3deg) scale(1.2); }
+  50% {
+    transform: rotate(0deg) scale(1); }
+  100% {
+    transform: translate(0, 5px);
+    opacity: 0.2; } }
+section {
+  display: block;
+  margin: 2em auto 3em 1em;
+  width: 100%; }
+
+/*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+    background-color: black;
+    color: #7fbde4;
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+}
+
+a, a:visited, .company, .artist {
+    color: #d7f1fd;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+article {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.leading_image {
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+.trailing_image {
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+.trailing_image > img, .leading_image > img {
+    height: 184px;
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul > li {
+    display: inline-block;
+    margin: 0 1em 1em 0;
+}
+
+ul.sponsor_grid {
+    text-align: center;
+}
+ul.sponsor_grid > li {
+    padding: 5px 10px;
+}
+ul.sponsor_grid > li img {
+    max-height: 90px;
+    max-width: 180px;
+    vertical-align: middle;
+}
+
+.recent img {
+    max-width: 15vw;
+    vertical-align: middle;
+}

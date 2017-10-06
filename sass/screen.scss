@@ -1,0 +1,380 @@
+@import 'smgvariables';
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+* {
+    @include box-sizing(border-box);
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: #000 url('https://s3-us-west-1.amazonaws.com/chuckharper/images/snow.gif') repeat top left;
+    color: $primary-text-color;
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    padding: 0.5vw 25vw 14vw 10vw;
+
+    @include scanlines(#FFF, 1px, 0deg, 0.3);
+}
+body:after {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -2;
+
+    animation-duration: 10s;
+    animation-name: rollingGrid;
+    animation-iteration-count: infinite;
+
+    transition: all 0.5s ease;
+}
+
+body:before {
+    background: transparent url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bg_top.svg) no-repeat top center;
+    background-size: 100% auto;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+a, a:visited, .company, .artist {
+    color: $primary-highlight-color;
+    text-decoration: none;
+}
+a:hover {
+    color: $primary-hover-color;
+
+    img {
+        opacity: 0.7;
+    }
+}
+img {
+    opacity: 0.6;
+}
+
+header {
+    height: 8vw;
+    text-align: left;
+
+    h1 {
+        display: inline-block;
+        font-size: 3vw;
+        margin: 0;
+    }
+}
+
+h4 {
+    font-size: 23px;
+    text-align: center;
+    margin: 0 0 1em;
+}
+
+#page_home {
+    height: 100%;
+}
+#body_home {
+    height: 100%;
+    padding-bottom: 0;
+
+    article {
+        border: 3px $primary-text-color solid;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        display: inline-block;
+        margin-top: 4vw;
+        margin-right: 2%;
+        text-align: center;
+        width: 62%;
+        vertical-align: top;
+
+
+        h3 {
+            text-align: left;
+            width: 50%;
+            white-space: nowrap;
+        }
+    }
+    article:first-of-type {
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        width: 100%;
+
+        h3 {
+            width: 30%;
+        }
+    }
+    article:last-of-type {
+        display: inline-block;
+        margin-right: 0;
+        width: 30%;
+
+        h3 {
+            width: 80%;
+        }
+    }
+
+    #about {
+        text-align: left;
+
+        p:not(.excerpt) {
+            display: none;
+        }
+        .excerpt {
+            img {
+                height: 120px;
+            }
+        }
+        img {
+            opacity: 0.4;
+        }
+        a:hover > img {
+          opacity: 1;
+        }
+    }
+    #about:after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+
+    #bookmarks {
+        section {
+            box-shadow: none;
+            border: none;
+            display: inline;
+            margin: 0;
+            padding: 0;
+
+            h4 {
+                display: none;
+            }
+        }
+
+        a:not(.excerpt) {
+          display: none;
+        }
+
+        .more > a {
+            display: inline;
+        }
+    }
+
+    section {
+        width: 40%;
+    }
+}
+
+#body_home.about_active {
+    #about {
+        padding-top: 2vw;
+        position: relative;
+        width: 100%;
+
+        .scrollthis {
+            @include scrollbars(2vw, $primary-text-color, rgba(127,189,228,0.4));
+
+            height: calc(100% - 2vw);
+            left: 0;
+            overflow: auto;
+            padding: 0 1em;
+            position: absolute;
+            top: 2vw;
+            width: 100%;
+        }
+    }
+}
+
+article {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 1.5em 0.5em;
+    position: relative;
+    transition: all 3s ease-out;
+    width: 90%;
+
+    h3 {
+        background: rgb(77,77,77);
+        background-image: repeating-linear-gradient(to bottom, transparent 0 ,transparent 1px, $primary-text-color 1px, $primary-text-color 2px);
+        background-size: 100% 2px, cover;
+        transform-origin: 50% 50%;
+        border-radius: 10px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+        font-size: 2vw;
+        left: -3px;
+        margin: 0;
+        padding: 0.25em 0.5em;
+        position: absolute;
+        top: 0;
+        transform: translate(0,-50%);
+        width: 40%;
+    }
+
+    p:first-of-type {
+        margin-top: 0;
+    }
+
+    .more {
+        text-align: right;
+        padding: 1em;
+    }
+}
+
+section {
+    border: 1px $primary-text-color solid;
+    box-shadow: 0 0 10px $primary-text-color;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 1em auto 2em 1em;
+    padding: 1em;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+
+    h3 {
+        left: 0;
+        margin: 0;
+        padding: 0.5em;
+        position: absolute;
+        text-shadow: 2px 2px 3px $primary-glow-color, -2px -2px 3px $primary-glow-color, 4px -1px 3px $primary-glow-color, -2px 4px 3px $primary-glow-color;
+        top: 0;
+        transform: translate(0,-100%);
+    }
+}
+
+.leading_image {
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+.trailing_image {
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+.trailing_image > img, .leading_image > img {
+    height: 184px;
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;
+        margin: 0 1em 1em 0;
+    }
+}
+
+ul.sponsor_grid {
+
+    li {
+        padding: 5px 10px;
+
+        img {
+            width: 9vw;
+            max-width: 256px;
+            vertical-align: middle;
+        }
+        img.portrait {
+            height: 50%;
+            max-height: 256px;
+            width: auto;
+            max-width: none;
+        }
+    }
+}
+#home_sponsors {
+    top: 30vh;
+    padding: 0;
+    position: absolute;
+    right: 5vw;
+    text-align: center;
+    width: 15vw;
+
+    h3 {
+        font-size: 1.5vw;
+        margin: 0 auto 0.5em;
+    }
+
+    ul {
+        li {
+            display: block;
+        }
+    }
+
+    img.portrait {
+        height: 6vw;
+    }
+}
+
+#recent {
+    img {
+        height: 5vw;
+        max-height: 256px;
+        vertical-align: middle;
+    }
+}
+
+#body_bookmarks {
+    section {
+        width: 45%;
+    }
+    section:first-of-type {
+        display: block;
+        width: 100%;
+    }
+}
+
+.logo_home {
+    img {
+        width: 6vw;
+        max-width: 100%;
+    }
+}
+
+footer {
+    background: transparent url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bg_bottom.svg) no-repeat top center;
+    background-size: 100% auto;
+    bottom: 0;
+    left: 0;
+    padding: 3vw 20vw 1em 1em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.footer_social {
+    margin: 2em auto 0;
+
+    a {
+        color: $primary-text-color;
+        display: inline-block;
+        height: 1em;
+        overflow: hidden;
+        width: 1em;
+
+        span {
+            display: inline-block;
+            height: 0;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+    a:hover {
+        color: $primary-highlight-color;
+    }
+}

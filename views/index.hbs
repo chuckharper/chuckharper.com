@@ -1,0 +1,55 @@
+{{#contentFor "head"}}
+    <script>
+        $(document).ready(function() {
+            /*
+             $('#about .more').click(function(e) {
+                 e.preventDefault();
+
+                 $('#bookmarks,#recent').fadeOut(600);
+
+                 var about_height = $('#about').outerHeight();
+                 $('#about').height(about_height);
+                 $('body').addClass('about_active');
+                 $('#about').animate({
+                     height: "64vh"
+                 },200);
+
+                 $("p:not(.excerpt)").show();
+                 $(".more").hide();
+             });
+             */
+        });
+    </script>
+{{/contentFor}}
+
+<article id="about">
+    <h3>About Chuck</h3>
+    {{>about}}
+    <div class="more"><a href="/about">More About Chuck…</a></div>
+</article>
+<article id="bookmarks">
+    <h3>Bookmarks</h3>
+    {{>bookmarks}}
+    <div class="more"><a href="/bookmarks">More Bookmarks…</a></div>
+</article>
+<article id="recent">
+    <h3>Recent Projects</h3>
+    <ul>
+        <li><a href="https://www.golfcode360.com/" rel="external"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/golfcode360_logo.png" alt="GolfCode 360"></a></li>
+        <li><a href="https://shockmediagroup.com/" rel="external"><img src="https://s3-us-west-1.amazonaws.com/chuckharper/images/smg_logo.png" alt="Shock Media Group"></a></li>
+    </ul>
+</article>
+
+<aside id="home_sponsors">
+    <h3><a href="/sponsors">Sponsors</a></h3>
+    <ul class="sponsor_grid">
+        {{#each sponsors}}
+            <li>
+                <a href="{{link}}" rel="external">
+                    <img src="{{image}}" alt="{{corp}}" class="{{ort}}" title="{{corp}} [{{ref}}]">
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+    <div class="more"><a href="/sponsors">More Sponsors…</a></div>
+</aside>
