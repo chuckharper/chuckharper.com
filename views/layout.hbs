@@ -24,13 +24,10 @@
         <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/favicon16.png" sizes="16x16">
         <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/favicon32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/favicon96.png" sizes="96x96">
-        <link rel="apple-touch-icon" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/appletouch120.png"> // 120px
+        <link rel="apple-touch-icon" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/appletouch120.png">
         <link rel="apple-touch-icon" sizes="180x180" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/appletouch180.png">
         <link rel="apple-touch-icon" sizes="152x152" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/appletouch152.png">
         <link rel="apple-touch-icon" sizes="167x167" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/appletouch167.png">
-
-        <link type="text/css" rel="stylesheet" href="/css/screen.css" media="screen" />
-        <link type="text/css" rel="stylesheet" href="/css/print.css" media="print" />
 
         {{{block "head"}}}
     </head>
@@ -46,7 +43,7 @@
             {{#each sponsors}}
                 <li>
                     <a href="{{link}}" rel="external">
-                        <img src="{{image}}" alt="{{corp}}" class="{{ort}}" title="{{corp}} [{{ref}}]">
+                        <img src="{{image}}" alt="{{corp}}" class="{{ort}}" title="{{corp}} [{{ref}}]" id="aside_img_{{@index}}">
                     </a>
                 </li>
             {{/each}}
