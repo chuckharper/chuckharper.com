@@ -17,7 +17,7 @@ var global_sponsors = [
     {corp:'Benthic Petroleum',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/benthic.png',ort:'landscape',ref:'The Abyss',link:'http://www.imdb.com/title/tt0096754/'},
     {corp:'Blue Sun',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/bluesun.png',ort:'portrait',ref:'Firefly/Serenity',link:'http://www.imdb.com/title/tt0303461/'},
     {corp:'Bluebook',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/bluebook.png',ort:'portrait',ref:'Ex Machina ',link:'http://www.imdb.com/title/tt0470752/'},
-    {corp:'Buy n Large',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/buynlarge.png',ort:'portrait',ref:'Wall&bull;E',link:'http://disney.go.com/disneypictures/wall-e/'},
+    {corp:'Buy n Large',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/buynlarge.png',ort:'portrait',ref:'Wall&bull;E',link:'http://www.imdb.com/title/tt0910970/'},
     {corp:'CHOAM',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/choam.png',ort:'landscape',ref:'Dune',link:'http://en.wikipedia.org/wiki/Dune_(novel)'},
     {corp:'Cyberdyne',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/cyberdyne.png',ort:'portrait',ref:'Terminator 2',link:'http://www.imdb.com/title/tt0103064/'},
     {corp:'Delos',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/delos.png',ort:'portrait',ref:'Westworld',link:'http://www.imdb.com/title/tt0475784/'},
