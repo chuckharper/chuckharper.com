@@ -52,6 +52,7 @@ var global_sponsors = [
     {corp:'Tyrell Corporation',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/tyrell.png',ort:'portrait',ref:'Blade Runner',link:'http://www.imdb.com/title/tt0083658/'},
     {corp:'Umbrella Corporation',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/umbrella.png',ort:'portrait',ref:'Resident Evil',link:'http://en.wikipedia.org/wiki/Resident_evil'},
     {corp:'Veidt Industries',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/veidt.png',ort:'landscape',ref:'Watchmen',link:'http://en.wikipedia.org/wiki/Watchmen'},
+    {corp:'Wallace Corporation',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/wallace.svg',ort:'landscape',ref:'Blade Runner 2049',link:'http://www.imdb.com/title/tt1856101/'},
     {corp:'Wayne Enterprises',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/wayne.png',ort:'landscape',ref:'Batman',link:'http://en.wikipedia.org/wiki/Batman'},
     {corp:'Weyland Yutani',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/weyland_yutani.png',ort:'landscape',ref:'Aliens',link:'http://www.imdb.com/title/tt0090605/'},
     {corp:'Wonka Candy Company',image:'https://s3-us-west-1.amazonaws.com/chuckharper/images/sponsors/crtskin/wonka.png',ort:'landscape',ref:'Willy Wonka and the Chocolate Factory',link:'http://www.imdb.com/title/tt0067992/'},
