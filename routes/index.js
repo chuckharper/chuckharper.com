@@ -100,4 +100,9 @@ router.get('/sponsors', function(req, res, next) {
     res.render('sponsors', { title: "Chuck Harper's Sponsors", pageid: 'sponsors', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
 });
 
+router.get('/christena', function(req, res, next) {
+
+    res.render('christena', { layout: false, title: "Christena Mother's Day 2017", pageid: 'christena', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
+});
+
 module.exports = router;
