@@ -150,15 +150,16 @@ h4 {
     padding: 0; }
     #body_home #bookmarks section h4 {
       display: none; }
-  #body_home #bookmarks section.bookmarks img {
-    max-width: 90px;
-    height: auto; }
   #body_home #bookmarks a:not(.excerpt) {
     display: none; }
   #body_home #bookmarks .more > a {
     display: inline; }
   #body_home section {
     width: 40%; }
+
+section.bookmarks img {
+  max-width: 90px;
+  height: auto; }
 
 #body_home.about_active #about {
   padding-top: 2vw;
