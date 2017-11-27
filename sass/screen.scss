@@ -162,6 +162,12 @@ h4 {
                 display: none;
             }
         }
+        section.bookmarks {
+            img {
+                max-width: 90px;
+                height: auto;
+            }
+        }
 
         a:not(.excerpt) {
           display: none;
