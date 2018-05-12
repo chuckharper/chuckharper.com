@@ -121,7 +121,9 @@ h4 {
 
 #body_home {
   height: 100%;
+  min-height: 920px;
   padding-bottom: 0;
+  zoom: 1;
 }
 #body_home article {
   border: 3px rgba(127, 189, 228, 0.7) solid;
