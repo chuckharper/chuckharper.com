@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-    background: #000 url('https://s3-us-west-1.amazonaws.com/chuckharper/images/snow.gif') repeat top left;
+    background: #000 url('https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/snow.gif') repeat top left;
     color: $primary-text-color;
     font-family: 'VT323', monospace;
     font-size: 18px;
@@ -36,7 +36,7 @@ body:after {
 }
 
 body:before {
-    background: transparent url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bg_top.svg) no-repeat top center;
+    background: transparent url(https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/bg_top.svg) no-repeat top center;
     background-size: 100% auto;
     bottom: 0;
     content: "";
@@ -383,7 +383,7 @@ ul.sponsor_grid {
 }
 
 footer {
-    background: transparent url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bg_bottom.svg) no-repeat top center;
+    background: transparent url(https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/bg_bottom.svg) no-repeat top center;
     background-size: 100% auto;
     bottom: 0;
     left: 0;
