@@ -105,4 +105,9 @@ router.get('/christena', function(req, res, next) {
     res.render('christena', { layout: false, title: "Christena Mother's Day 2017", pageid: 'christena', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
 });
 
+router.get('/samantha', function(req, res, next) {
+
+    res.render('samantha', { layout: false, title: "Faces In The Crowd Performance", pageid: 'samantha', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
+});
+
 module.exports = router;
