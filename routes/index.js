@@ -1,14 +1,19 @@
 var express = require('express');
 var router = express.Router();
-var moment = require('moment');
 
-var anniv = moment("1994-10-08 16:00");
-var taylor_bday = moment("2003-06-02 18:03");
-var sam_bday = moment("2005-09-23 18:24");
+const sinceThen = (then) => {
+    const now = Date.now();
+    const diff = (now - then) / (60 * 60 * 24 * 365);
+    return Math.floor(diff) + ' years';
+};
 
-var marriage_age = anniv.fromNow(true);
-var taylor_age = taylor_bday.fromNow(true);
-var sam_age = sam_bday.fromNow(true);
+var anniv = new Date("1994-10-08T16:00:00 GMT-0800");
+var taylor_bday = new Date("2003-06-02T18:03:00 GMT-0800");
+var sam_bday = new Date("2005-09-23T18:24:00 GMT-0800");
+
+var marriage_age = sinceThen(anniv);
+var taylor_age = sinceThen(taylor_bday);
+var sam_age = sinceThen(sam_bday);
 
 var global_sponsors = [
     {corp:'ACME Corporation',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/acme.svg',ort:'landscape',ref:'Looney Tunes',link:'http://looneytunes.warnerbros.com'},
