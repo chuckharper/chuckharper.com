@@ -11,7 +11,7 @@ var anniv = new Date("1994-10-08T16:00:00 GMT-0800");
 var taylor_bday = new Date("2003-06-02T18:03:00 GMT-0800");
 var sam_bday = new Date("2005-09-23T18:24:00 GMT-0800");
 
-var marriage_age = sinceThen(anniv);
+var marriage_age = anniv.toDateString();
 var taylor_age = sinceThen(taylor_bday);
 var sam_age = sinceThen(sam_bday);
 
