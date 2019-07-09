@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="description" content="{{title}}" />
+    <meta name="title" content="{{#if title}}{{title}}{{else}}chuckharper.com{{/if}}" />
+
+    <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/favicon16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/favicon32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/favicon96.png" sizes="96x96">
+    <link rel="apple-touch-icon" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/appletouch120.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/appletouch180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/appletouch152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/appletouch167.png">
+
+    <title>{{title}}</title>
+    <style>
+        body {
+            color: white;
+            background-color: black;
+        }
+
+        a, a:visited, a:active {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<h1>{{title}}</h1>
+<video controls preload="metadata" style=" width:1440px;  height:810px;">
+	<source src="https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/RN19final.mp4" type="video/mp4">
+	Your browser does not support the HTML5 video tag.
+</video>
+<p>
+    <strong>Download video:</strong> <a href="https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/RN19final.mp4">Download MP4</a>
+</p>
+</body>
+</html>

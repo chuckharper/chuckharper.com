@@ -115,4 +115,9 @@ router.get('/samantha', function(req, res, next) {
     res.render('samantha', { layout: false, title: "Faces In The Crowd Performance", pageid: 'samantha', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
 });
 
+router.get('/davebackup', function(req, res, next) {
+
+    res.render('davebackup', { layout: false, title: "Ragnar", pageid: 'davebackup', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
+});
+
 module.exports = router;
