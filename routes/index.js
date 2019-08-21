@@ -120,4 +120,9 @@ router.get('/davebackup', function(req, res, next) {
     res.render('davebackup', { layout: false, title: "Ragnar", pageid: 'davebackup', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
 });
 
+router.get('/loners', function(req, res, next) {
+
+    res.render('loners', { layout: false, title: "Loners Epilogue", pageid: 'davebackup', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
+});
+
 module.exports = router;
