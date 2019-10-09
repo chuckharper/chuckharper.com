@@ -125,4 +125,9 @@ router.get('/loners', function(req, res, next) {
     res.render('loners', { layout: false, title: "Loners Epilogue", pageid: 'davebackup', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
 });
 
+router.get('/anniversary', function(req, res, next) {
+
+    res.render('anniversary', { layout: false, title: "Our 25th Anniversary", pageid: 'anniversary', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
+});
+
 module.exports = router;
