@@ -130,4 +130,9 @@ router.get('/anniversary', function(req, res, next) {
     res.render('anniversary', { layout: false, title: "Our 25th Anniversary", pageid: 'anniversary', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
 });
 
+router.get('/catalina2020', function(req, res, next) {
+
+    res.render('catalina2020', { layout: false, title: "NMC Catalina Dive Trip August 2020", pageid: 'catalina2020', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
+});
+
 module.exports = router;
