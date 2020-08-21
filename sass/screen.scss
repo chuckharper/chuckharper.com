@@ -286,6 +286,11 @@ section {
         top: 0;
         transform: translate(0,-100%);
     }
+
+    video {
+        max-width: 80vw;
+        width: 100%;
+    }
 }
 
 .leading_image {

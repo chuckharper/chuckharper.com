@@ -301,6 +301,10 @@ section h3 {
   top: 0;
   transform: translate(0, -100%);
 }
+section video {
+  max-width: 80vw;
+  width: 100%;
+}
 
 .leading_image {
   float: left;
@@ -416,4 +420,4 @@ footer {
   color: rgba(181, 217, 239, 0.7);
 }
 
-/*# sourceMappingURL=public/css/screen.css.map */
+/*# sourceMappingURL=screen.css.map */
