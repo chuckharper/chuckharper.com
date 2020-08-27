@@ -378,10 +378,6 @@ ul.sponsor_grid li img.portrait {
   display: block;
   width: 100%;
 }
-#body_bookmarks section:last-of-type {
-  display: block;
-  width: 100%;
-}
 
 .logo_home img {
   width: 6vw;
