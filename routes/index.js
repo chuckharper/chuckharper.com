@@ -145,4 +145,9 @@ router.get('/ashjump2020', function(req, res, next) {
     res.render('ashjump2020', { layout: false, title: "Ash Jump 2020", pageid: 'ashjump2020', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
 });
 
+router.get('/candtinflatible', function(req, res, next) {
+
+    res.render('candtinflatible', { layout: false, title: "Chuck and Tim Inflatable 2020", pageid: 'candtinflatible', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
+});
+
 module.exports = router;
