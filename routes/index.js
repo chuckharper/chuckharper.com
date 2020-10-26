@@ -135,4 +135,9 @@ router.get('/catalina2020', function(req, res, next) {
     res.render('catalina2020', { layout: false, title: "NMC Catalina Dive Trip August 2020", pageid: 'catalina2020', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
 });
 
+router.get('/ashswitch2020', function(req, res, next) {
+
+    res.render('ashswitch2020', { layout: false, title: "Ash Switch 2020", pageid: 'ashswitch2020', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
+});
+
 module.exports = router;
