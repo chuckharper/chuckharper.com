@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="description" content="{{title}}" />
+    <meta name="title" content="{{#if title}}{{title}}{{else}}chuckharper.com{{/if}}" />
+
+    <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/favicon16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/favicon32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/favicon96.png" sizes="96x96">
+    <link rel="apple-touch-icon" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/appletouch120.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/appletouch180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/appletouch152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/appletouch167.png">
+
+    <meta property="og:title" content="{{title}}">
+<meta property="og:description" content="October 24, 2020">
+<meta property="og:image" content="{{video_thumbnail}}">
+<meta property="og:url" content="http://www.chuckharper.com/{{pageid}}">
+
+    <title>{{title}}</title>
+
+    <link rel='stylesheet' href='/css/screen.css' />
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link href="/css/mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width: 720px)">
+
+    <style>
+        body {
+            color: white;
+            background-color: black;
+        }
+
+        a, a:visited, a:active {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<h1>{{title}}</h1>
+<section>
+    <video controls  poster={{video_thumbnail}}>
+        <source src="{{video_url}}" type="video/mp4">
+        Your browser does not support the video tag or the file format of this video.
+    </video>
+    <p>
+        <strong>Download video:</strong> <a href="{{video_download}}">Download MP4</a>
+    </p>
+</section>
+<footer>
+        <ul class="footer_social">
+            <li><a href="https://www.facebook.com/chuckharper" rel="external" class="fa fa-facebook-square fa-2x" aria-hidden="true"><span>Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/chuckharper/" rel="external" class="fa fa-instagram fa-2x" aria-hidden="true"><span>Instagram</span></a></li>
+            <li><a href="https://www.linkedin.com/in/charleswharper/" rel="external" class="fa fa-linkedin-square fa-2x" aria-hidden="true"><span>LinkedIn</span></a></li>
+            <li><a href="https://www.pinterest.com/chuckharper/" rel="external" class="fa fa-pinterest-square fa-2x" aria-hidden="true"><span>Pinterest</span></a></li>
+            <li><a href="https://www.snapchat.com/add/chuckharper" rel="external" class="fa fa-snapchat-square fa-2x" aria-hidden="true"><span>Snapchat</span></a></li>
+            <li><a href="https://twitter.com/chuckharper" rel="external" class="fa fa-twitter-square fa-2x" aria-hidden="true fa-2x"><span>Twitter</span></a></li>
+        </ul>
+        <div class="copyright">&copy;{{current_year}} Chuck Harper Consulting. All Rights Reserved.</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/bookmarks">Bookmarks</a></li>
+            <li><a href="/sponsors">Sponsors</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

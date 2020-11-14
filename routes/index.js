@@ -150,4 +150,18 @@ router.get('/candtinflatable', function(req, res, next) {
     res.render('candtinflatable', { layout: false, title: "Chuck and Tim Inflatable 2020", pageid: 'candtinflatable', sponsors: global_sponsors, current_year: (new Date()).getFullYear() });
 });
 
+router.get('/josh', function(req, res, next) {
+
+    res.render('basicvideo', { 
+        layout: false, 
+        title: "Josh Clever's Water Adventures", 
+        pageid: 'josh', 
+        sponsors: global_sponsors, 
+        current_year: (new Date()).getFullYear(),
+        video_thumbail: 'https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/josh-clevers-water+-adventures.jpg',
+        video_url: 'https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/josh-clevers-water+-adventures-web.mp4',
+        video_download: 'https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/josh-clevers-water+-adventures.mp4'
+    });
+});
+
 module.exports = router;
