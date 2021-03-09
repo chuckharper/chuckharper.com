@@ -384,6 +384,10 @@ ul.sponsor_grid li img.portrait {
   max-width: 100%;
 }
 
+.media_share img {
+  max-width: 20vw;
+}
+
 footer {
   background: transparent url(https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/bg_bottom.svg) no-repeat top center;
   background-size: 100% auto;
