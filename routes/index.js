@@ -96,6 +96,10 @@ router.get('/about/tron', function(req, res, next) {
     res.render('tron', { title: 'About Chuck Harper - TRON Legacy', pageid: 'tron', sponsor_aside: true, sponsors: getSponsors(), current_year: (new Date()).getFullYear()});
 });
 
+router.get('/force', function(req, res, next) {
+    res.render('force', { title: 'Media Downloads', pageid: 'force', sponsor_aside: true, sponsors: getSponsors(), current_year: (new Date()).getFullYear()});
+});
+
 router.get('/bookmarks', function(req, res, next) {
     res.render('bookmarks', { title: "Chuck Harper's Bookmarks", pageid: 'bookmarks', sponsor_aside: true, sponsors: getSponsors(), current_year: (new Date()).getFullYear() });
 });
