@@ -386,13 +386,14 @@ ul.sponsor_grid {
 }
 
 .media_share {
+    margin-top: 5vh;
     li {
         display: block;
         text-align: center;
     }
     img {
         display: block;
-        margin-bottom: 10px;
+        margin: 10px auto;
         max-width: 20vw;
     }
 }

@@ -384,13 +384,16 @@ ul.sponsor_grid li img.portrait {
   max-width: 100%;
 }
 
+.media_share {
+  margin-top: 5vh;
+}
 .media_share li {
   display: block;
   text-align: center;
 }
 .media_share img {
   display: block;
-  margin-bottom: 10px;
+  margin: 10px auto;
   max-width: 20vw;
 }
 
