@@ -384,7 +384,12 @@ ul.sponsor_grid li img.portrait {
   max-width: 100%;
 }
 
+.media_share li {
+  width: 30%;
+}
 .media_share img {
+  display: block;
+  margin-bottom: 10px;
   max-width: 20vw;
 }
 
