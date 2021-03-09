@@ -387,7 +387,8 @@ ul.sponsor_grid {
 
 .media_share {
     li {
-        width: 30%;
+        display: block;
+        text-align: center;
     }
     img {
         display: block;

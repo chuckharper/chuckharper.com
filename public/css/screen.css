@@ -385,7 +385,8 @@ ul.sponsor_grid li img.portrait {
 }
 
 .media_share li {
-  width: 30%;
+  display: block;
+  text-align: center;
 }
 .media_share img {
   display: block;
