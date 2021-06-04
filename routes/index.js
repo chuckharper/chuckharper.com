@@ -168,4 +168,18 @@ router.get('/josh', function(req, res, next) {
     });
 });
 
+router.get('/taylor18', function(req, res, next) {
+
+    res.render('basicvideo', { 
+        layout: false, 
+        title: "Taylor's 18th Birthday", 
+        pageid: 'taylor18', 
+        sponsors: global_sponsors, 
+        current_year: (new Date()).getFullYear(),
+        video_thumbail: 'https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/taylor-18th-birthday.jpg',
+        video_url: 'https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/taylor-18th-birthday.mp4',
+        video_download: 'https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/taylor-18th-birthday.mp4'
+    });
+});
+
 module.exports = router;
