@@ -177,7 +177,7 @@ router.get('/taylor18', function(req, res, next) {
         sponsors: global_sponsors, 
         current_year: (new Date()).getFullYear(),
         video_thumbail: 'https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/taylor-18th-birthday.jpg',
-        video_url: 'https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/taylor-18th-birthday.mp4',
+        video_url: 'https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/taylor-18th-birthday-web.mp4',
         video_download: 'https://chuckharpercdn.s3-us-west-1.amazonaws.com/media/taylor-18th-birthday.mp4'
     });
 });
