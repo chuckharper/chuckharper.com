@@ -25,6 +25,7 @@ var global_sponsors = [
     {corp:'Buy n Large',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/buynlarge.png',ort:'portrait',ref:'Wall&bull;E',link:'http://www.imdb.com/title/tt0910970/'},
     {corp:'CHOAM',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/choam.png',ort:'landscape',ref:'Dune',link:'http://en.wikipedia.org/wiki/Dune_(novel)'},
     {corp:'Cyberdyne',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/cyberdyne.png',ort:'portrait',ref:'Terminator 2',link:'http://www.imdb.com/title/tt0103064/'},
+    {corp:'Drax Corporation',image:'https://chuckharpercdn.s3.us-west-1.amazonaws.com/images/sponsors/crtskin/drax_corporation.png',ort:'portrait',ref:'Moonraker',link:'https://www.imdb.com/title/tt0079574'},
     {corp:'Delos',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/delos.png',ort:'portrait',ref:'Westworld',link:'http://www.imdb.com/title/tt0475784/'},
     {corp:'Dinoco',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/dinoco.png',ort:'landscape',ref:'Pixar Films (Cars, Toy Story)',link:'http://www.pixar.com'},
     {corp:'ENCOM',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/encom.png',ort:'landscape',ref:'TRON',link:'http://www.imdb.com/title/tt0084827/'},
