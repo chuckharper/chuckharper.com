@@ -60,11 +60,9 @@ var global_sponsors = [
 
 ];
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
+function getSponsors(sponsor_count=5) {
     var sponsors = JSON.parse(JSON.stringify(global_sponsors));
     var select_sponsors = [];
-    var sponsor_count = 3;
     for (var i=0;i<sponsor_count;i++) {
         var rand = Math.floor((Math.random() * sponsors.length));
         if (sponsors[rand] == null) {
@@ -75,19 +73,25 @@ router.get('/', function(req, res, next) {
         sponsors[rand] = null;
     }
 
-    res.render('index', { title: 'chuckharper.com', pageid: 'home', sponsors: select_sponsors, current_year: (new Date()).getFullYear(), marriage_age: marriage_age, taylor_age:taylor_age, sam_age:sam_age });
+    return select_sponsors;
+}
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+
+    res.render('index', { title: 'chuckharper.com', pageid: 'home', sponsor_aside: true, sponsors: getSponsors(3), current_year: (new Date()).getFullYear(), marriage_age: marriage_age, taylor_age:taylor_age, sam_age:sam_age });
 });
 
 router.get('/about', function(req, res, next) {
-    res.render('about', { title: 'About Chuck Harper', pageid: 'about', current_year: (new Date()).getFullYear(), marriage_age: marriage_age, taylor_age:taylor_age, sam_age:sam_age });
+    res.render('about', { title: 'About Chuck Harper', pageid: 'about', sponsor_aside: true, sponsors: getSponsors(), current_year: (new Date()).getFullYear(), marriage_age: marriage_age, taylor_age:taylor_age, sam_age:sam_age });
 });
 
 router.get('/about/tron', function(req, res, next) {
-    res.render('tron', { title: 'About Chuck Harper - TRON Legacy', pageid: 'tron', current_year: (new Date()).getFullYear()});
+    res.render('tron', { title: 'About Chuck Harper - TRON Legacy', pageid: 'tron', sponsor_aside: true, sponsors: getSponsors(), current_year: (new Date()).getFullYear()});
 });
 
 router.get('/bookmarks', function(req, res, next) {
-    res.render('bookmarks', { title: "Chuck Harper's Bookmarks", pageid: 'bookmarks', current_year: (new Date()).getFullYear() });
+    res.render('bookmarks', { title: "Chuck Harper's Bookmarks", pageid: 'bookmarks', sponsor_aside: true, sponsors: getSponsors(), current_year: (new Date()).getFullYear() });
 });
 
 router.get('/sponsors', function(req, res, next) {

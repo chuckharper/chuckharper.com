@@ -179,6 +179,18 @@ h4 {
       scrollbar-face-color: rgba(127, 189, 228, 0.7);
       scrollbar-track-color: rgba(127, 189, 228, 0.4); }
 
+#body_sponsors {
+  padding-right: 10vw; }
+  #body_sponsors article p {
+    padding-right: 10vw; }
+  #body_sponsors ul.sponsor_grid li img {
+    width: 10vw; }
+  #body_sponsors ul.sponsor_grid li img.portrait {
+    height: 9vw;
+    max-height: 256px;
+    width: auto;
+    max-width: none; }
+
 article {
   box-sizing: border-box;
   margin: 0 auto;

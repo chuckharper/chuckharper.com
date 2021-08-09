@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html id="page_{{pageid}}">
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
         <title>{{#if title}}{{title}}{{else}}Chuck Harper{{/if}}</title>
         <link rel='stylesheet' href='/css/screen.css' />
         <link rel="stylesheet" href="/css/font-awesome.min.css">
@@ -13,6 +16,22 @@
         <script src="/js/shadowbox-3.0.3/shadowbox.js" type="text/javascript"></script>
         <script src="/js/inside.js" type="text/javascript"></script>
 
+        <meta name="description" content="Chuck Harper offers consulting services for web software engineering and development, desktop support, digital video editing, and database development using the over twenty years experience gained while working for companies like 20th Century Fox, Pathway Capital Management, AEG Worldwide, AXS Ticketing and Shock Media Group." />
+        <meta name="keywords" content="Chuck Harper, 92646, Full Stack, NodeJS, PHP, IT Consultant, Apple, Macintosh, web developer, web technologies, XHTML, XML, CSS, JavaScript, AJAX, RSS, Digital video editing, compositor, animator, Final Cut Pro, Motion, database developer, PostGresSQL, MySQL, MariaDB, Adobe Photoshop, Adobe Illustrator" />
+        <meta name="title" content="{{title}}" />
+        <link rel="image_src" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/social.png" />
+
+        <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/favicon16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/favicon32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/favicon96.png" sizes="96x96">
+        <link rel="apple-touch-icon" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/appletouch120.png"> // 120px
+        <link rel="apple-touch-icon" sizes="180x180" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/appletouch180.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/appletouch152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="https://s3-us-west-1.amazonaws.com/chuckharper/images/appletouch167.png">
+
+        <link type="text/css" rel="stylesheet" href="/css/screen.css" media="screen" />
+        <link type="text/css" rel="stylesheet" href="/css/print.css" media="print" />
+
         {{{block "head"}}}
     </head>
     <body id="body_{{pageid}}">
@@ -20,6 +39,21 @@
         <h1><a href="/">{{title}}</a></h1>
     </header>
 {{{body}}}
+    {{#if sponsor_aside}}
+    <aside id="home_sponsors">
+        <h3><a href="/sponsors">Sponsors</a></h3>
+        <ul class="sponsor_grid">
+            {{#each sponsors}}
+                <li>
+                    <a href="{{link}}" rel="external">
+                        <img src="{{image}}" alt="{{corp}}" class="{{ort}}" title="{{corp}} [{{ref}}]">
+                    </a>
+                </li>
+            {{/each}}
+        </ul>
+        <div class="more"><a href="/sponsors">More Sponsors…</a></div>
+    </aside>
+    {{/if}}
     <footer>
         <ul class="footer_social">
             <li><a href="https://www.facebook.com/chuckharper" rel="external" class="fa fa-facebook-square fa-2x" aria-hidden="true"><span>Facebook</span></a></li>

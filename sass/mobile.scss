@@ -1,7 +1,185 @@
 @import 'smgvariables';
 
+header {
+    height: auto;
+    padding-top: 8vw;
+
+    h1 {
+        display: block;
+        font-size: 24px;
+        text-align: left;
+        padding-left: 1em;
+    }
+}
+
+body {
+    font-size: 14px;
+    padding-left: 0;
+    padding-bottom: 160px;
+}
+body:before {
+    background-image: url(https://s3-us-west-1.amazonaws.com/chuckharper/images/bg_top_mobile.svg);
+}
+
 section {
     display: block;
     margin: 2em auto 3em 1em;
     width: 100%;
+}
+
+article {
+    padding-left: 1em;
+    .more {
+        padding: 0.5em 1em 0;
+    }
+}
+
+ul.sponsor_grid {
+
+    li {
+        padding: 5px 0;
+
+        img {
+            width: 12vw;
+            max-width: 70px;
+        }
+        img.portrait {
+            height: 12vw;
+            max-height: 50px;
+        }
+
+    }
+}
+
+#page_home {
+    height: auto;
+}
+#body_home {
+    height: auto;
+    padding-bottom: 160px;
+
+    article, article:first-of-type, article:last-of-type {
+        border-width: 1px;
+        border-left: 0;
+        border-bottom-left-radius: 0;
+        display: block;
+        margin-top: 8vw;
+        width: 100%;
+
+        h3 {
+            font-size: 18px;
+            padding-left: 1em;
+            width: 70%;
+        }
+    }
+
+    #about {
+        .excerpt {
+            img {
+                height: 25vw;
+            }
+        }
+    }
+
+    #bookmarks {
+        img {
+            width: 15vw;
+        }
+    }
+}
+#home_sponsors {
+    font-size: 12px;
+    top: 15vh;
+    width: 19vw;
+
+    h3 {
+        font-size: 12px;
+    }
+
+    .more {
+        font-size: 10px;
+    }
+}
+#recent {
+    ul {
+      margin-top: 1em;
+    }
+    img {
+      height: 10vw;
+    }
+}
+
+#body_sponsors {
+    article {
+        p {
+            padding-right: 0;
+        }
+    }
+
+    ul.sponsor_grid {
+        text-align: center;
+
+        li {
+            padding: 5px 0;
+
+            img {
+                width: 14vw;
+                max-width: 100px;
+            }
+            img.portrait {
+                height: 14vw;
+                max-height: 70px;
+            }
+
+        }
+    }
+}
+
+#body_bookmarks {
+    article {
+        padding-left: 0;
+        width: 100%;
+    }
+    section {
+        border-left: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        left: -10px;
+        margin: 1em 0;
+        padding: 1em 0 1em 20px;
+        position: relative;
+        width: 100%;
+
+        img {
+            width: 15vw;
+        }
+    }
+}
+#body_tron {
+    article {
+        img.trailing_image {
+            width: 30vw;
+        }
+    }
+}
+
+.leading_image {
+    margin: 3px 6px 3px 0;
+}
+.trailing_image {
+    margin: 3px 0 3px 6px;
+}
+
+.trailing_image > img, .leading_image > img {
+    height: 25vw;
+}
+
+footer {
+    font-size: 10px;
+}
+
+@media screen and (orientation:landscape) {
+    #home_sponsors {
+        top: 40vh;
+    }
 }

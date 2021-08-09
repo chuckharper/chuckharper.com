@@ -196,6 +196,30 @@ h4 {
     }
 }
 
+#body_sponsors {
+    padding-right: 10vw;
+
+    article {
+          p {
+              padding-right: 10vw;
+          }
+    }
+
+    ul.sponsor_grid {
+        li {
+            img {
+                width: 10vw;
+            }
+            img.portrait {
+                height: 9vw;
+                max-height: 256px;
+                width: auto;
+                max-width: none;
+            }
+        }
+    }
+}
+
 article {
     box-sizing: border-box;
     margin: 0 auto;
