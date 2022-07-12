@@ -52,6 +52,7 @@ var global_sponsors = [
     {corp:'Rossum Corporation',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/rossum.png',ort:'landscape',ref:'Dollhouse',link:'http://www.imdb.com/title/tt1135300/'},
     {corp:'Ryan Industries',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/ryan_industries.png',ort:'portrait',ref:'Bioshock',link:'http://en.wikipedia.org/wiki/Bioshock'},
     {corp:'Shipstone Corporation',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/shipstone.png',ort:'portrait',ref:'Robert A. Heinlein Expanded Universe',link:'http://en.wikipedia.org/wiki/Friday_%28novel%29'},
+    {corp:'Soonami Studios',image:'https://chuckharpercdn.s3.us-west-1.amazonaws.com/images/sponsors/crtskin/soonami.png',ort:'landscape',ref:'Free Guy',link:'https://www.imdb.com/title/tt6264654/'},
     {corp:'Soylent Corporation',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/soylent.png',ort:'landscape',ref:'Soylent Green',link:'http://www.imdb.com/title/tt0070723'},
     {corp:'Stark Industries',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/stark.png',ort:'landscape',ref:'Iron Man',link:'http://en.wikipedia.org/wiki/Iron_man'},
     {corp:'Trask Industries',image:'https://s3-us-west-1.amazonaws.com/chuckharpercdn/images/sponsors/crtskin/trask.png',ort:'portrait',ref:'X-Men',link:'http://www.trask-industries.com'},
