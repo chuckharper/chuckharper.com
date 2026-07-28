@@ -410,20 +410,11 @@ footer {
 
 .footer_social {
   margin: 2em auto 0;
+  text-align: center;
+  padding: 0;
 }
 .footer_social a {
   color: rgba(127, 189, 228, 0.7);
-  display: inline-block;
-  height: 1em;
-  overflow: hidden;
-  width: 1em;
-}
-.footer_social a span {
-  display: inline-block;
-  height: 0;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
 }
 .footer_social a:hover {
   color: rgba(181, 217, 239, 0.7);
